@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(gridLayoutManager);
 
         if (savedInstanceState == null) {
-            this.getListItemData("nicholas cage");
+            this.getListItemData("Nicolas Cage");
         }
     }
 
