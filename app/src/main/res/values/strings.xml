@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Eaze Homework</string>
+    <string name="app_name">Giphy Search</string>
+    <string name="share_gif_text">Check out %1$s on Giphy!\n%2$s</string>
 </resources>
