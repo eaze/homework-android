@@ -4,7 +4,7 @@
 ![device-2017-07-31-003246](https://user-images.githubusercontent.com/593594/28767436-839ad246-7588-11e7-9603-4ecbcf81f013.png) ![gif](https://user-images.githubusercontent.com/593594/28767427-7d459a20-7588-11e7-99fd-fe867f7fc27a.gif)
 
 ## Installation and use
-- A handful of Gradle dependencies have been added, and the build tools have been updated to version 25. The project should be easy to run from Android Studio, or an APK can be downloaded directly [here](https://github.com/jmschultz/target-android-demo/releases).
+- A handful of Gradle dependencies have been added, and the build tools have been updated to version 25. The project should be easy to run from Android Studio, or an APK can be downloaded directly [here](https://github.com/jmschultz/homework-android/releases/tag/v1.0.0).
 
 ## Open Source Attribution
 - [Butterknife](http://jakewharton.github.io/butterknife/), for view binding
