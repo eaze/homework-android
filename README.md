@@ -18,7 +18,7 @@
 - There's some kind of bug in the way Glide loads images of variable size for a `StaggeredGridLayoutManager`, so this app uses Picasso for static image downloading and Glide for the gifs on the details screen. I should've spent more time digging into Glide's bug to consolidate on one library, but I time-boxed it for the demo.
 - The app should have better separation of concerns everywhere. I tend to use something like the VIPER pattern in iOS and MVP in Android. Due to time constraints there's a lot of work happening in the Activities here where it doesn't belong.
 - The code could also be made more DRY, styles should be genericized for reuse and the image downloading should be moved into a common place.
-- Images should've been sized according to device, but I just used the default `still` and `original` URLs from the API response. Also, because all deal URLs are the same.
+- Images should've been sized according to device, but I just used the default `still` and `original` URLs from the API response. 
 - There are a bunch of `TODOs` in the code. Most are notes for whomever gets stuck reviewing this.
 
 ## Improvements / things I like to use
