@@ -57,7 +57,9 @@ public class GiphyRecyclerViewAdapter extends RecyclerView.Adapter<GiphyViewHold
             }
         });
 
-        Picasso.with(context)
+        Picasso picasso = Picasso.with(context);
+                picasso.setLoggingEnabled(true);
+                picasso
                 .load(still.url)
                 .into(holder.gifImage);
 

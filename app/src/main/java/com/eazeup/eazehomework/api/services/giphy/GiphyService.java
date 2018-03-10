@@ -15,7 +15,7 @@ import retrofit2.http.Query;
 public interface GiphyService {
     // todo: Paging query params, etc.
     @GET("search")
-    Call<GiphyResponse> search(@Query("q") @NonNull String searchTerm);
+    Call<GiphyResponse> search(@Query("q") @NonNull String searchTerm, @Query("limit") int limit);
 
     @GET("trending")
     Call<GiphyResponse> getTrendingGifs();

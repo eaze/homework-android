@@ -5,6 +5,7 @@ package com.eazeup.eazehomework.api.services;
  */
 
 import com.eazeup.eazehomework.BuildConfig;
+import com.facebook.stetho.okhttp3.StethoInterceptor;
 
 import java.io.IOException;
 
@@ -38,6 +39,7 @@ public class ServiceWrapper {
             }
         });
 
+         okHttpBuilder.addNetworkInterceptor(new StethoInterceptor());
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BuildConfig.GIPHY_API_BASE_URL)

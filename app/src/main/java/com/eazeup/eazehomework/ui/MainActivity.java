@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 GiphyService service = ServiceWrapper.wrapService(GiphyService.class);
-                service.search(searchTerm).enqueue(new Callback<GiphyResponse>() {
+                service.search(searchTerm, 120).enqueue(new Callback<GiphyResponse>() {
                     @Override
                     public void onResponse(Call<GiphyResponse> call, Response<GiphyResponse> response) {
                         giphyResponse = response.body();
